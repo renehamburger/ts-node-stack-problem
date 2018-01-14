@@ -1,3 +1,4 @@
 exports.config = {
-  specs: ['./example.spec.js', './example.spec.ts']
+  specs: ['./example.spec.ts'],
+  //skipSourceMapSupport: true  // This resolves the issue!
 };
