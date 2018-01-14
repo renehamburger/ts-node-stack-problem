@@ -1,3 +1,3 @@
 exports.config = {
-  specs: ['./example.spec.ts']
+  specs: ['./example.spec.js', './example.spec.ts']
 };
