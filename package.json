@@ -1,0 +1,16 @@
+{
+  "name": "ts-node-stack-problem",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "postinstall": "webdriver-manager update",
+    "start": "ts-node ./node_modules/.bin/protractor"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.2.2",
+    "ts-node": "^4.1.0"
+  }
+}
